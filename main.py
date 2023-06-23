@@ -5,9 +5,8 @@ app = Flask(__name__)
 
 @app.route("/")
 def print_b64_name():
-    name ="Sebastian Bustamante"
-    encoded = base64.b64encode(name)
+    encoded = base64.b64encode(b'Sebastian Bustamante')
     return encoded
 
 if __name__ == '__main__':
-    app.run(host='localhost', port=80)
+    app.run(host='0.0.0.0', port=80, debug=True)
