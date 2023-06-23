@@ -9,4 +9,4 @@ Follow these steps to use the Docker container `sebbustam/wallmartchallenge:v1`
 2. Once this command be execute with succesfull you could test with:
 
    `curl -sL http://localhost | base64 -d`
-3. You should see my name decoded
+3. You should see my decoded name
